@@ -4,7 +4,7 @@ import Dynamic from "./Dynamic"
 const Contact = () => {
   return (
     <>
-    <h1>welcome to contact</h1>
+    <h1>welcome to contact yay</h1>
     {Dynamic.map((data)=>(
       <div key={data.id}><h1>{data.name}</h1>
       <h3>{data.age}</h3>
